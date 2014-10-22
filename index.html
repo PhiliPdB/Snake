@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>PhiliPdB - Snake</title>
+		<meta id="viewport" name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">	
+		<meta name="mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		<meta name="format-detection" content="telephone=no">
+        <meta name="author" content="Philip de Bruin">
+        <meta name="description" content="This is a website with random stuff and things tried with HTML, Javascript and other languages">
+        <meta name="keywords" content="philip, philipdb, bruin, html, javascript, random">
+        <link rel="stylesheet" type="text/css" href="css/fonts.css">
+        <style type="text/css">
+			body {
+				margin: 0;
+				overflow: hidden;
+				height: 100vh;
+			}
+			#canvas {
+				position: relative;
+				margin: 0;
+				border: 1px solid #353535;
+				width: 100vw;
+				height: 100vh;
+				max-width: 600px;
+				max-height: 500px;
+			}
+			@media (max-width: 600px) {
+				#canvas {
+					border-left: 0;
+					border-right: 0;
+				}
+			}
+			@media (max-height: 500px) {
+				#canvas {
+					border-top: 0;
+					border-bottom: 0;
+				}
+			}
+        </style>
+        <link rel="shortcut icon" href="favicons/favicon.ico">
+		<link rel="apple-touch-icon" sizes="57x57" href="favicons/apple-touch-icon-57x57.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="favicons/apple-touch-icon-114x114.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="favicons/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="144x144" href="favicons/apple-touch-icon-144x144.png">
+		<link rel="apple-touch-icon" sizes="60x60" href="favicons/apple-touch-icon-60x60.png">
+		<link rel="apple-touch-icon" sizes="120x120" href="favicons/apple-touch-icon-120x120.png">
+		<link rel="apple-touch-icon" sizes="76x76" href="favicons/apple-touch-icon-76x76.png">
+		<link rel="apple-touch-icon" sizes="152x152" href="favicons/apple-touch-icon-152x152.png">
+		<link rel="apple-touch-icon" sizes="180x180" href="favicons/apple-touch-icon-180x180.png">
+		<link rel="icon" type="image/png" href="favicons/favicon-192x192.png" sizes="192x192">
+		<link rel="icon" type="image/png" href="favicons/favicon-160x160.png" sizes="160x160">
+		<link rel="icon" type="image/png" href="favicons/favicon-96x96.png" sizes="96x96">
+		<link rel="icon" type="image/png" href="favicons/favicon-16x16.png" sizes="16x16">
+		<link rel="icon" type="image/png" href="favicons/favicon-32x32.png" sizes="32x32">
+		<meta name="msapplication-TileColor" content="#ffffff">
+		<meta name="msapplication-TileImage" content="favicons/mstile-144x144.png">
+		<meta name="msapplication-config" content="favicons/browserconfig.xml">
+	</head>
+	<body>
+		<!-- Canvas -->
+		<canvas id="canvas" width="600" height="500">Your browser does not support the HTML5 canvas tag.</canvas>
+
+		<!-- Script -->
+		<script type="text/javascript" src="js/script.js"></script>
+	</body>
+</html>

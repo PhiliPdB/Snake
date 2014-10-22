@@ -1,0 +1,15 @@
+/* Roboto */
+@font-face {
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Roboto Regular"), local("Roboto-Regular"), url("http://fonts.gstatic.com/s/roboto/v12/2UX7WLTfW3W8TclTUvlFyQ.woff") format("woff");
+}
+
+/* Ubuntu */
+@font-face {
+    font-family: "Ubuntu";
+    font-style: normal;
+    font-weight: 400;
+    src: local("Ubuntu"), url("http://fonts.gstatic.com/s/ubuntu/v6/_xyN3apAT_yRRDeqB3sPRg.woff") format("woff");
+}
