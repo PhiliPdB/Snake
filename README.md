@@ -13,7 +13,7 @@ Features
 
 Changelog
 ---------
-Version	|Date(MM/DD/YYY)|Change
+Version	|Date			|Change
 :-------|:-------------:|:-----
 1.0 	|10/22/2014		|fix of the web app buggs and initial release
 0.2.3 	|10/21/2014		|Beter functionality for screensizes that cannot be divided by 10
